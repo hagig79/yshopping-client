@@ -1,0 +1,19 @@
+{
+    "name": "rrrz/yshopping-client",
+    "license": "MIT",
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/yahoojapan/yconnect-php-sdk"
+        }
+    ],
+    "require": {
+        "php": ">=5.6.0",
+        "yahoojapan/yconnect-php-sdk": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "Rrrz\\YShoppingClient\\": "src/YShoppingClient"
+        }
+    }
+}
