@@ -19,7 +19,7 @@ class GetItem extends Operation
         return $this->getBaseUrl() . '/getItem?' . http_build_query([
                 'seller_id' => $this->getSellerId(),
                 'item_code' => $this->item_code
-            ]);;
+            ]);
     }
 
     function getMethod()
@@ -31,5 +31,4 @@ class GetItem extends Operation
     {
         return true;
     }
-
 }
