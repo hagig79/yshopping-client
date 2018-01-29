@@ -34,7 +34,7 @@ abstract class Operation
     function getBaseUrl()
     {
         if (!$this->seller_id || !preg_match('/^snbx-/', $this->seller_id)) {
-            return 'https://shopping.yahooapis.jp/ShoppingWebService/V1';
+            return 'https://circus.shopping.yahooapis.jp/ShoppingWebService/V1';
         } else {
             return 'https://test.circus.shopping.yahooapis.jp/ShoppingWebService/V1';
         }
